@@ -5,7 +5,7 @@ import { Task } from './task.model'
 export class TasksService {
   private tasks: Task[] = []
 
-  getAllTasks() {
+  getAllTasks(): Task[] {
     return this.tasks
   }
 }
