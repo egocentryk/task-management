@@ -4,7 +4,7 @@ export const TASK_STATUS = {
   DONE: 'DONE',
 } as const
 
-type ValueOf<T> = T[keyof T]
+export type ValueOf<T> = T[keyof T]
 
 export interface Task {
   id: string
