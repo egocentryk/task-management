@@ -3,7 +3,7 @@ import { TASK_STATUS } from './task.model'
 import { CreateTaskDto } from './dto/create-task.dto'
 import { ValueOf } from 'src/common/types/types'
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto'
-import { TasksRepository } from './task.repository'
+import { TasksRepository } from './tasks.repository'
 import { InjectRepository } from '@nestjs/typeorm'
 import { Task } from './task.entity'
 
