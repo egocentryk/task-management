@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
 import { TasksModule } from './components/tasks/tasks.module'
 import { TypeOrmModule } from '@nestjs/typeorm'
-import { AuthModule } from './auth/auth.module';
+import { AuthModule } from './auth/auth.module'
 
 @Module({
   imports: [
