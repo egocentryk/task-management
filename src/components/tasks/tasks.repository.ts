@@ -3,9 +3,8 @@ import { Task } from './task.entity'
 import { Injectable, InternalServerErrorException } from '@nestjs/common'
 import { CreateTaskDto } from './dto/create-task.dto'
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto'
-import { User } from 'src/auth/user.entity'
+import { User } from '@auth/user.entity'
 import { Logger } from '@nestjs/common'
-import { time } from 'console'
 
 @Injectable()
 export class TasksRepository extends Repository<Task> {

@@ -1,8 +1,8 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm'
 import { TASK_STATUS } from './task.model'
-import { ValueOf } from 'src/common/types/types'
+import { ValueOf } from '@common/types/types'
 import { IsNotEmpty } from 'class-validator'
-import { User } from 'src/auth/user.entity'
+import { User } from '@auth/user.entity'
 import { Exclude } from 'class-transformer'
 
 @Entity()

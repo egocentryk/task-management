@@ -1,4 +1,4 @@
-import { ValueOf } from 'src/common/types/types'
+import { ValueOf } from '@common/types/types'
 import { TASK_STATUS } from '../task.model'
 import { IsEnum, IsOptional, IsString } from 'class-validator'
 
