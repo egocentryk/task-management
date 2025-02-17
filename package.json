@@ -73,6 +73,11 @@
       "ts"
     ],
     "rootDir": "src",
+    "moduleNameMapper": {
+      "@auth/(.*)$": "<rootDir>/auth/$1",
+      "@common/(.*)$": "<rootDir>/common/$1",
+      "@components/(.*)$": "<rootDir>/components/$1"
+    },
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
